@@ -1,14 +1,11 @@
 <?php
 
-// Paso 1. Declaración del array
 $lista = array();
 
-// Paso 2. Inicialización del array
 for ($i=0; $i < 10; $i++) { 
     $lista[$i] = rand(1, 30);
 }
 
-// Paso 3. Imprimir el array
 for ($i=0; $i < 10; $i++) { 
     echo $lista[$i];
     echo "<br>";
@@ -26,13 +23,13 @@ $numeros = count($lista);
 $media = $suma / $numeros;
 
 echo "<p>";
-echo "La media es: $media";
+echo "La media es : $media";
 echo "</p>";
 
 echo "<p>";
-echo " El valor máximo es: $maximo";
+echo " El valor máximo es : $maximo";
 echo "</p>";
 
-echo "El valor minimo es: $minimo";
+echo "El valor minimo es : $minimo";
 
 ?>
