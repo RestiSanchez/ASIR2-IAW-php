@@ -3,17 +3,18 @@ muestre un mensaje indicando la clasificación obtenida teniendo en cuenta los i
 
 <?php
 
-$NOTA = rand(0, 10)
-
-if ($NOTA >= 0 && $NOTA < 5) {
+$calificacion = rand (0,10);
+echo "$calificacion";
+echo "<br>";
+if ($calificacion >= 0 and $calificacion < 5) {
     echo "Insuficiente";
-} elseif ($NOTA = 5) {
+} elseif ($calificacion >= 5 and $calificacion < 6) {
     echo "Suficiente";
-} elseif ($NOTA = 6) {
+} elseif ($calificacion >= 6 and $calificacion < 7) {
     echo "Bien";
-} elseif ($NOTA >= 7 && $NOTA < 9) {
+} elseif ($calificacion >= 7 and $calificacion < 9) {
     echo "Notable";
-} elseif ($NOTA >= 9 && $NOTA <= 10) {
+} else {
     echo "Sobresaliente";
 }
 ?>
