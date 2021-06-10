@@ -7,6 +7,6 @@ $DADO = rand(1, 6);
 
 echo "<h2>Numero: $DADO</h2>";
 
-echo "<img src= 'images/cara$dado.svg'>";
+echo "<img src= 'images/dado$DADO.png'>";
 
 ?>

@@ -5,7 +5,6 @@ muestre un mensaje indicando la clasificación obtenida teniendo en cuenta los i
 
 $NOTA = rand(0, 10)
 
-# COMPARAMOS
 if ($NOTA >= 0 && $NOTA < 5) {
     echo "Insuficiente";
 } elseif ($NOTA = 5) {

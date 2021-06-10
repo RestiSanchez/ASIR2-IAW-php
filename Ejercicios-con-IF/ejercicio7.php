@@ -6,11 +6,11 @@ con los valores obtenidos en cada uno de los dados -->
 $DADO1 = rand(1, 6);
 $DADO2 = rand(1, 6);
 
-echo "<h2>Numero dado 1: $DADO1</h2>";
-echo "<h2>Numero dado 2: $DADO2</h2>";
+echo "<h1>Numero dado 1: $DADO1</h1>";
+echo "<h1>Numero dado 2: $DADO2</h1>";
 
-echo "<img src= 'images/cara$DADO1.svg'>";
-echo "<img src= 'images/cara$DADO2.svg'>";
+echo "<img src= 'images/dado$DADO1.png'>";
+echo "<img src= 'images/dado$DADO2.png'>";
 
 ?>
 

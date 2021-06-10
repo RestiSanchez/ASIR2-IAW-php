@@ -7,23 +7,22 @@ $DADO = rand(1, 6);
 
 switch ($DADO) {
     case 1:
-        echo "<img src='images/cara1.svg'>";
-# El break es para parar la función
+        echo "<img src='images/dado1.png'>";
         break;
     case 2:
-        echo "<img src='images/cara2.svg'>";
+        echo "<img src='images/dado2.png'>";
         break;
     case 3:
-        echo "<img src='images/cara3.svg'>";
+        echo "<img src='images/dado3.png'>";
        break;
     case 4:
-        echo "<img src='images/cara4.svg'>";
+        echo "<img src='images/dado4.png'>";
         break;
     case 5:
-        echo "<img src='images/cara5.svg'>";
+        echo "<img src='images/dado5.png'>";
         break;
     case 6:
-         echo "<img src='images/cara6.svg'>";
+         echo "<img src='images/dado6.png'>";
          break;
 }
 
