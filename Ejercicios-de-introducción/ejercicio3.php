@@ -1,5 +1,15 @@
 <!-- Revise la documentación oficial para conocer todas las variables superglobal que existen.
-Con ayuda de la función print_r muestra el contenido de cada una de las variables superglobal. -->
+Con ayuda de la función print_r muestra el contenido de cada una de las variables superglobal.
+$GLOBALS
+$_SERVER
+$_GET
+$_POST
+$_FILES
+$_COOKIE
+$_SESSION
+$_REQUEST
+$_ENV
+ -->
 
 
 <?php
