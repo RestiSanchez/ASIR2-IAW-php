@@ -10,7 +10,7 @@ Utilizar un bucle for -->
     <title>ejercicio5</title>
 </head>
 <body>
-    <table border="3">
+    <table border="2">
         <tr>
             <?php
 
@@ -20,7 +20,6 @@ Utilizar un bucle for -->
                     echo "Tabla de Multiplicar del $num";
                     for ($i=0; $i <=10 ; $i++) { 
                         $result = $num*$i;
-                        
                         echo "<td>$num*$i = $result</td>";
                         
                     }

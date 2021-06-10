@@ -14,9 +14,7 @@ Utiliza un bucle for -->
         
             <?php
                 $num = rand(1, 10);
-# Iniciamos la variable y asignamos que cuente del 1 al 10.
                 for ($i=0; $i <= 10 ; $i++) { 
-# El resultado será la múltiplicación del $num por 1,2,3,4.. hasta el 10.
                     $result = $num*$i;
                     echo "<tr>";
                     echo "<td>$num*$i = $result</td>";
